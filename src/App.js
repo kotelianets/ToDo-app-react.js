@@ -23,10 +23,10 @@ function App() {
   const startingApp = () => {
     setIsStarted(true);
 
-    // Show the welcome message after 0 seconds (immediately)
+    
     setShowWelcome(true);
 
-    // Hide the welcome message after 3 seconds
+   
     setTimeout(() => {
       setShowWelcome(false);
     }, 3000);
