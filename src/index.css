@@ -8,6 +8,45 @@ body {
   background-color: rgba(102, 102, 102, 0.661);
 }
 
+.startingApp {
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(66, 187, 50, 0.73);
+  height: 200px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+
+.welcomeMessage {
+  margin: 20px auto 20px;
+  text-align: center;
+  background-color: blueviolet;
+  color: #fff;
+  width: 50%;
+  font-size: 55px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.startingApp:hover {
+  font-size: 47px;
+  background-color: rgb(83, 231, 64);
+  box-shadow: 0px 5px 10px 1px greenyellow;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -34,7 +34,9 @@ const Form = (props) => {
               backgroundColor: isSubmitted ? 'red' : '#fff',
             }}
           />
-          {isSubmitted && <div className='error-message'>Field cannot be empty!</div>}
+          {isSubmitted && (
+            <div className="error-message">Field cannot be empty!</div>
+          )}
           <div>
             <button className="form-button" type="submit">
               Add task

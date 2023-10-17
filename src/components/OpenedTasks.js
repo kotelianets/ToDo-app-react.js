@@ -1,4 +1,3 @@
-// OpenedTasks.js
 import React from 'react';
 import './OpenedTasks.css';
 
